@@ -1,0 +1,113 @@
+body{
+    font-family: 'Calibri';
+}
+
+#yt-logo{
+    height: 50px;
+    width: 90px;
+}
+
+#search-box{
+    margin-top: 0px;
+    margin-left: 300px;
+    width: 40%;
+    height: 33px;
+    border-radius: 20px;
+    border-color: rgb(207, 196, 196);
+    border-width: 1.5px;
+    padding: 10px;
+}
+
+#mic-button:hover{
+    cursor:pointer;
+}
+
+#mic-button{
+    margin-left: 3px;
+    
+}
+
+#login{
+    margin-right: 0;
+    margin-left: 400px;
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+}
+#login:checked{
+    color:black;
+}
+#login:hover{
+    color:black
+}
+
+.sidebar{
+    /* margin-top: 100px; */
+    display:flex;
+    width: 150px;
+    flex-direction: column;
+    float:left;
+    z-index: 2;
+}
+.side-links{
+    text-decoration: none;
+    padding: 10px;
+    color:black;
+    list-style: none;
+    border-radius: 4px;
+}
+
+.side-links:hover{
+    background: rgb(238, 234, 234);
+}
+
+hr{
+    width: 100%;
+    border-width:0.2px;
+    color:black;
+    border-color: rgb(255, 255, 255);
+}
+
+.content-body{
+    display: flex;
+    flex-direction:row;
+    margin-top: 100px;
+}
+.row-container{
+    margin-left: 100px;
+}
+
+iframe{
+    border-radius: 12px;
+    height: 175px;
+    width: 275px;
+    margin: 10px;
+    margin-bottom: 30px;
+}
+
+#section-divider{
+    width: 70%;
+    border-width: 1px;
+    background:rgb(214, 213, 213);
+    height: 2px;
+    border-color: rgb(214, 213, 213);
+    border-radius: 4px;
+    margin-left: 300px;
+}
+
+.shorts{
+    display: flex;
+    flex-direction: row;
+    margin-left: 250px;
+   
+}
+.shorts-row{
+    /* margin-top: 50px; */
+    margin-left: 10px;
+}
+.shorts-video{
+    height: 250px;
+    width: 170px;
+    border-radius: 10px;
+    margin: 10px;
+}
